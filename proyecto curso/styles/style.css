@@ -1,0 +1,250 @@
+html {
+    height: 100%;
+    
+}
+
+
+body {
+    font-family: 'Lucida Grande', sans-serif;
+    margin: 0px;
+    display: flex;
+    
+    flex-direction: column;
+    
+    height: 100%;
+    background-color: rgb(86, 82, 82);
+}
+
+
+.navigation-wrapper {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    
+    padding: 30px;
+    height: 30px;
+    flex-grow: 0;
+    
+    flex-shrink: 0;
+    
+}
+
+.navigation-wrapper>.left-column {
+    height: 100%;
+    
+    flex-grow: 0;
+    
+}
+
+
+.navigation-wrapper>.left-column>.codepen-img {
+    height: 100%;
+    
+}
+
+
+.codepen-img>img {
+    height: 100%;
+}
+
+.navigation-wrapper>.center-column {
+    display: grid;
+    flex-grow: 1;
+    padding-left: 60px;
+}
+
+.navigation-wrapper>.center-column>.explore {
+    color: rgb(210, 210, 18);
+    font-size: 14px;
+}
+
+.nav-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-link {
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 4px;
+    font-weight: 700;
+}
+
+.spark {
+    margin-left: 14px;
+    color:rgb(120, 101, 101);
+    font-size: 18px;
+}
+
+.navigation-wrapper>.right-column {
+    display:flex;    
+    align-items: center;
+    column-gap: 20px;
+    flex-grow: 0;
+}
+
+.create-btn {
+    background-color: rgb(86, 82, 82);
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    
+
+}
+
+.create-btn i {
+    color: rgb(28, 114, 136);
+}
+
+.search-icon {
+    font-size: 2em;
+    color: rgb(86, 82, 82);
+}
+
+.login-btn {
+    background-color: rgb(86, 82, 82);
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    
+}
+
+.sign-up-btn {
+    background-color: rgb(86, 82, 82);
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    
+}
+
+
+.center-wrapper {
+    background-color: rgb(29, 27, 27);
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1.75fr 1.25fr;
+    gap: 15px;
+    overflow: auto;
+    
+}
+
+.center-wrapper-right-column>.right-column-text {
+    color: white;
+    margin-top: 14px;
+    margin-bottom: 5px;
+}
+
+.center-wrapper-right-column>.right-column-text>.code-project {
+    color: rgb(44, 113, 165);
+    font-weight: 700;
+}
+
+.center-wrapper-right-column>.center-img>img {
+    
+    width: 100%;
+}
+
+.center-wrapper-left-column {
+    padding: 30px;
+}
+
+.center-up-text {
+    font-size: 2.5em;
+    color: rgb(227, 218, 218);
+    margin-bottom: 20px;
+}
+
+.center-up-text>.social-dev {
+    font-weight: 700;
+    color: white;
+}
+
+.center-down-text {
+    font-size: 2em;
+    color: rgb(227, 218, 218);
+    margin-bottom: 40px;
+}
+
+.sign-up-free-btn {
+    background-color: rgb(39, 135, 39);
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.learn-more-btn {
+    background-color: black;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    padding: 10px 20px;
+}
+
+.center-wrapper-right-column {
+    padding-top: 20px;
+}
+
+
+
+.footer-wrapper {
+    background-color: rgb(45, 41, 41);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: small;
+    text-align: center;
+    vertical-align: middle;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: rgb(227, 218, 218);
+    gap: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.teams,
+.education,
+.privacy,
+.writing {
+    flex: auto;
+    padding: 9px;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(45, 41, 41);
+    white-space: nowrap;
+    
+}
+
+.teams-word,
+.education-word,
+.privacy-word,
+.writing-word {
+    font-weight: 700;
+}
+
+
+.black-spacer {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    flex-grow: 0;
+    flex-shrink: 1;
+    
+}
